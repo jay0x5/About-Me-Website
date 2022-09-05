@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: rgb(27, 36, 48);
+}
+
+.Navbar-Box{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(27, 36, 48);
+    box-shadow: 0 0 20px;
+    color: rgb(81, 85, 126);
+    height: 75px;
+    transition: 1.5s box-shadow, height 1.5s;
+}
+.Navbar-Box:hover{
+    box-shadow: 0 0 50px;
+    height: 80px;
+}
+
+
+
+
+
+.navbar-logo{
+    color:aliceblue;
+    margin-top: 25px;
+    margin-left: 10px;
+    transition: color 1s, font-size 1s;
+    
+}
+.navbar-logo:hover{
+    color:rgb(81, 85, 126);
+    font-size: 40px;
+}
+
+
+.navbar-twitter{
+    margin-top: 25px;
+}
+.anchor-twitter{
+    flex:1;
+    margin-left: 500px;
+    color:aliceblue;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: color 0.4s, font-size 0.4s;
+
+}
+.anchor-twitter:hover{
+    color: rgb(81, 85, 126);
+    font-size: 30px;
+    
+}
+
+
+
+
+.navbar-discord{
+    margin-top: 25px;
+}
+.anchor-discord{
+    flex:2;
+    margin-left: 100px;
+    color:aliceblue;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: color 0.4s, font-size 0.4s;
+}
+.anchor-discord:hover{
+    color: rgb(81, 85, 126);
+    font-size: 30px;
+}
+
+
+
+
+
+.navbar-insta{
+    margin-top: 25px;
+}
+.anchor-insta{
+    flex:3;
+    margin-left:90px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 25px;
+    transition: color 0.4s, font-size 0.4s;
+}
+.anchor-insta:hover{
+    color: rgb(81, 85, 126);
+    font-size: 30px;
+
+}
+
+
+
+/* .search-box{
+    margin-left: 400px;
+    margin-top: 12px;
+}
+.search-input{
+    height: 40px;
+    width: 150px;
+    transition: height 1.5s, width 1.5s;
+}
+
+.search-input:hover{
+    height: 50px;
+    color: rgb(81, 85, 126);
+    width: 180px
+} */
+
+.lol-text{
+    /* margin-left: 100px; */
+    position: relative;
+    left:280px;
+    top: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+    width: 200px;
+    height: 0px;
+    color: aliceblue;
+    transition: color 1s, transform 1s;
+}
+
+
+.lol-text:hover{
+    color: rgb(81, 85, 126);
+    transform: rotateZ(2deg) rotateZ(-2deg) rotateZ(-2);
+    /* width: 180px */
+}
+
+
+
+.Title{
+    margin-left: 625px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    color:  aliceblue;
+    margin-top: 200px;
+    font-size: 50px;
+    overflow: hidden;
+    transition: color 0.8s, font-size 0.7s, transform 1s, display 1s;
+    cursor: pointer;
+    width: auto;
+    
+}
+
+.Title:hover{   
+    color: rgb(81, 85, 126);
+    font-size: 80px;
+    /* -ms-transform: skewY(20deg); IE 9 */
+    transform: skewY(20deg);
+    text-shadow: 0 0 10px;
+    
+}
+
+
+
+.Title:hover + .Intro1{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+
+
+
+
+
+/*About me data*/
+.Intro1{
+    display: none;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    white-space: pre-line;
+    transition: transform 1s;
+}
+
+.Intro2{
+    display: none;
+    flex:2;
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 630px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+      
