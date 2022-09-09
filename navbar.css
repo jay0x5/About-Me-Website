@@ -140,7 +140,7 @@ body{
 
 
 .Title{
-    margin-left: 625px;
+    margin-left: 640px;
     position: relative;
     display: inline-flex;
     flex-direction: column;
@@ -174,8 +174,6 @@ body{
 
 
 
-
-
 /*About me data*/
 .Intro1{
     display: none;
@@ -202,13 +200,19 @@ body{
 }
 
 
+.popupname{
+    position: relative;
+    left: 600px;
+    display: none;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(9, 143, 196);
+    text-shadow: 0 0 5px;
+    font-size: 90px;
+}
 
 
-
-
-
-
-
-
-
-      
+.Title:hover + .popupname {
+    display: block;
+    color: aliceblue;
+}
